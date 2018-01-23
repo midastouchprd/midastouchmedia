@@ -4,16 +4,13 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-image: url('./images/midastouchmedia.gif');
-  background-size: auto;
-  background-position: center;
 }
 
 .App a {
   color: var(--text);
   padding: 5vh 10vw;
   border: 1px solid var(--text);
-  background-color: var(--background);
+  background-color: transparent;
   font-weight: 100;
   font-size: 6vw;
   transition: 0.2s ease-in-out;
