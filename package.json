@@ -12,6 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && aws s3 sync build/ s3://midastouchmedia.com"
+    "deploy":
+      "npm run build && aws s3 sync build/ s3://midastouchmedia.com --delete"
   }
 }
