@@ -6,10 +6,20 @@
   height: 100vh;
   background-image: url('./images/midastouchmedia.gif');
   background-size: auto;
+  background-position: center;
 }
 
-.App h1 {
+.App a {
   color: var(--text);
-  border: 3px solid var(--color2);
-  padding: 24px 18px;
+  padding: 5vh 10vw;
+  border: 1px solid var(--text);
+  background-color: var(--background);
+  font-weight: 100;
+  font-size: 6vw;
+  transition: 0.2s ease-in-out;
+}
+
+.App a:hover {
+  background-color: var(--color2);
+  transition: 0.2s ease-in-out;
 }
